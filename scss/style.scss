@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Inter:wght@400;700&family=Jost:wght@400;500&family=Manrope:wght@800&family=Outfit:wght@300;400;600&family=Space+Grotesk:wght@500;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    width: 100%;
+    background-color: #151515;
+    background-image: url(../img/icons/ovals-top.svg),url(../img/icons/circle_adam.svg), url(../img/icons/ovals-middle.svg),url(../img/icons/ovals-bottom.svg),;
+    background-position: left top 133px,top 521px right 545px, right bottom 72%,left bottom 219px;
+    background-repeat: no-repeat;
+    body:last-child{
+        background-color:#242424;
+    }
+    .container{
+        margin:0 auto;
+        width: 1110px;
+        ul{
+            list-style: none;
+        }
+        a{
+            color: inherit;
+            text-decoration: none;
+        }
+        .wrapper{
+            .beginning-part{
+                position: relative;
+            }
+            header{
+                position:absolute;
+                width: 100%;
+                height: 32px;
+                display: flex;
+                justify-content: space-between;
+                align-items:center;
+                margin-top: 39px;
+                z-index: 1;
+                .proomo{
+                    nav{
+                        ul{
+                            width: 192.49px;
+                            height: 24px;
+                            display: flex;
+                            column-gap: 32px;
+                            a{
+                                height: 24px;
+                            }
+                        }
+                    }
+                }
+                p{
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 32px;
+                    letter-spacing: -0.444444px;
+                    color: #FFFFFF;
+                }
+            }
+            main{
+                position: relative;
+                width: 1110px;
+                height: 720px;
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 104px;
+                .introduction{
+                    width: 709px;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 43px;
+                    padding-top: 127px;
+                    z-index: 1;
+                    .greeting{
+                        h1{
+                            width: 709px;
+                            height: 88px;
+                            font-weight: 700;
+                            font-size: 88px;
+                            line-height: 88px;
+                            letter-spacing: -2.5px;
+                            color: #FFFFFF;
+                        }
+                        span{
+                            width: 655px;
+                            height: 88px;
+                            font-weight: 700;
+                            font-size: 88px;
+                            line-height: 88px;
+                            letter-spacing: -2.5px;
+                            color: #FFFFFF;
+
+                        }
+                    }
+                    p{
+                        width: 445px;
+                        height: 84px;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 28px;
+                        color: #D9D9D9;
+                    }
+                        img{
+                            position:absolute;
+                            width: 445px;
+                            height: 752px;
+                            margin-top: -32px;
+                            opacity: 0.5;
+                    }
+                    button{
+                        width: 120px;
+                        height: 38px;
+                        font-weight: 700;
+                        letter-spacing: 2.28571px;
+                        text-transform: uppercase;
+                        color: white;
+                        background-color:  #151515;
+                        border:none;
+                        border-bottom:2px solid  #4EE1A0;
+                        margin-top: 23px;
+                        cursor: pointer;
+                    }
+                    button:hover{
+                        color:#4EE1A0;
+                    }
+                }
+            }
+            section{
+                padding-bottom: 140px;
+                .skills{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    row-gap: 58px;
+                    border-top: 1px solid #FFFFFF;
+                    background-image:url(../img/icons/Group\ 26\ \(1\).svg);
+                    background-position: right bottom;
+                    background-repeat:no-repeat;
+                    padding-top: 72px;
+                    padding-bottom: 140px;
+                    .html-skill{
+                        width: 345px;
+                        height: 98px;
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 14px;
+                        h4{
+                            font-weight: 700;
+                            font-size: 48px;
+                            line-height: 56px;
+                            letter-spacing: -1.5px;  
+                            color: #FFFFFF;
+                            text-transform: uppercase;
+                        }
+                        p{
+                            width: 345px;
+                            height: 28px;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 28px;     
+                            color: #D9D9D9;
+                        }
+                    }
+                    .css-skill{
+                        width: 345px;
+                        height: 98px;
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 14px;
+                        h4{
+                            font-weight: 700;
+                            font-size: 48px;
+                            line-height: 56px;
+                            letter-spacing: -1.5px;  
+                            color: #FFFFFF;
+                            text-transform: uppercase;
+                        }
+                        p{
+                            width: 345px;
+                            height: 28px;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 28px;     
+                            color: #D9D9D9;
+                        }
+                    }
+                    .javascript-skill{
+                        h4{
+                            font-weight: 700;
+                            font-size: 48px;
+                            line-height: 56px;
+                            letter-spacing: -1.5px;  
+                            color: #FFFFFF;
+                        }
+                        p{
+                            width: 345px;
+                            height: 28px;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 28px;     
+                            color: #D9D9D9;
+                        }
+                    }
+                    .accessibility-skill{
+                        h4{
+                            font-weight: 700;
+                            font-size: 48px;
+                            line-height: 56px;
+                            letter-spacing: -1.5px;  
+                            color: #FFFFFF;
+                        }
+                        p{
+                            width: 345px;
+                            height: 28px;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 28px;     
+                            color: #D9D9D9;
+                        }
+                    }
+                    .react-skill{
+                        h4{
+                            font-weight: 700;
+                            font-size: 48px;
+                            line-height: 56px;
+                            letter-spacing: -1.5px;  
+                            color: #FFFFFF;
+                        }
+                        p{
+                            width: 345px;
+                            height: 28px;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 28px;     
+                            color: #D9D9D9;
+                        }
+                    }
+                    .sass-skill{
+                        h4{
+                            font-weight: 700;
+                            font-size: 48px;
+                            line-height: 56px;
+                            letter-spacing: -1.5px;  
+                            color: #FFFFFF;
+                        }
+                        p{
+                            width: 345px;
+                            height: 28px;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 28px;     
+                            color: #D9D9D9;
+                        }
+                    }
+                }
+            }
+            article{
+                .project{
+                    header{
+                        .project-header{
+                            width: 1110px;
+                            height: 88px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items:center;
+                            margin-bottom: 80px;
+                            h2{
+                                font-weight: 700;
+                                font-size: 88px;
+                                line-height: 88px;
+                                letter-spacing: -2.5px;
+                                color: #FFFFFF;
+                            }
+                            button{
+                                width: 120px;
+                                height: 38px;
+                                font-weight: 700;
+                                letter-spacing: 2.28571px;
+                                text-transform: uppercase;
+                                color: white;
+                                background-color:  #151515;
+                                border:none;
+                                border-bottom:2px solid  #4EE1A0;
+                                margin-top: 23px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    .projects-main-part{
+                        width: 1110px;
+                        display: flex;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        row-gap: 69px;
+                        padding-top: 80px;
+                        padding-bottom: 139px;
+                        .design-project{
+                            width: 545.81px;
+                            display: flex;
+                            flex-direction: column;
+                            row-gap: 20px;
+                            img:hover{
+                                background: #000000;
+                                mix-blend-mode: normal;
+                                opacity: 0.75;
+                                cursor: pointer;
+                            }
+                            h6{
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 32px;
+                                color: #FFFFFF;
+                                text-transform: uppercase;
+                            }
+                            .design-projects-elements{
+                                width: 100px;
+                                display: flex;
+                                justify-content: space-between;
+                                p{
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 28px; 
+                                    color: #D9D9D9;
+                                    text-transform: uppercase;
+                                    margin-top: -13px;
+                                }
+                                
+                            }
+                            
+                        }
+                        .skill-project{
+                            width: 545.81px;
+                            display: flex;
+                            flex-direction: column;
+                            row-gap: 20px;
+                            img:hover{
+                                background: #000000;
+                                mix-blend-mode: normal;
+                                opacity: 0.75;
+                                cursor:pointer;
+                            }
+                            h6{
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 32px;
+                                color: #FFFFFF;
+                                text-transform: uppercase;
+                            }
+                            .skill-projects-elements{
+                                width: 100px;
+                                display: flex;
+                                justify-content: space-between;
+                                p{
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 28px; 
+                                    color: #D9D9D9;
+                                    text-transform: uppercase;
+                                    margin-top: -13px;
+                                }
+                                
+                            }
+                        }
+                        .todo-web-app-project{
+                            width: 545.81px;
+                            display: flex;
+                            flex-direction: column;
+                            row-gap: 20px;
+                            h6{
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 32px;
+                                color: #FFFFFF;
+                                text-transform: uppercase;
+                            }
+                            .web-projects-elements{
+                                width: 223px;
+                                display: flex;
+                                justify-content: space-between;
+                                p{
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 28px; 
+                                    color: #D9D9D9;
+                                    text-transform: uppercase;
+                                    margin-top: -13px;
+                                }
+                                
+                            }
+                        }
+                        .trending-project{
+                            width: 545.81px;
+                            display: flex;
+                            flex-direction: column;
+                            row-gap: 20px;
+                            h6{
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 32px;
+                                color: #FFFFFF;
+                                text-transform: uppercase;
+                            }
+                            .trending-projects-elements{
+                                width: 223px;
+                                display: flex;
+                                justify-content: space-between;
+                                p{
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 28px; 
+                                    color: #D9D9D9;
+                                    text-transform: uppercase;
+                                    margin-top: -13px;
+                                }
+                                
+                            }
+                        }
+                        .memory-project{
+                            width: 545.81px;
+                            display: flex;
+                            flex-direction: column;
+                            row-gap: 20px;
+                            h6{
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 32px;
+                                color: #FFFFFF;
+                                text-transform: uppercase;
+                            }
+                            .memory-projects-elements{
+                                width: 223px;
+                                display: flex;
+                                justify-content: space-between;
+                                p{
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 28px; 
+                                    color: #D9D9D9;
+                                    text-transform: uppercase;
+                                    margin-top: -13px;
+                                }
+                            }
+                        }
+                        .gallery-project{
+                            width: 545.81px;
+                            display: flex;
+                            flex-direction: column;
+                            row-gap: 20px;
+                            h6{
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 32px;
+                                color: #FFFFFF;
+                                text-transform: uppercase;
+                            }
+                            .gallery-projects-elements{
+                                width: 223px;
+                                display: flex;
+                                justify-content: space-between;
+                                p{
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 28px; 
+                                    color: #D9D9D9;
+                                    text-transform: uppercase;
+                                    margin-top: -13px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            footer{
+
+                    .footer-menu{
+                        width: 100%;
+                        height: 504px;
+                        display: flex;
+                        justify-content: space-between;
+                        padding-top: 84px;
+                        border-bottom: 1px solid #FFFFFF;
+                        .connection{
+                            width: 445px;
+                            height: 208px;
+                            display: flex;
+                            flex-direction: column;
+                            row-gap: 36px;
+                            
+                            h5{
+                                font-weight: 700;
+                                font-size: 88px;
+                                line-height: 88px;
+                                letter-spacing: -2.5px;
+                                color: #FFFFFF;
+                            }
+                            p{
+                                width: 445px;
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 28px;
+                                color: #D9D9D9;
+                            }
+                        }
+                    }
+                    .registration{
+                        width: 445px;
+                        height: 327px;
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 32px;
+                        padding-bottom: 92px;
+                        .isInput{
+                            position: relative;
+                            display: flex;
+                            flex-direction: column;
+                            width: 445px;
+                            height: 43px;
+                            label{
+                                position: absolute;
+                                left: 24px;
+                                bottom: 17px;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 26px;
+                                letter-spacing: -0.222222px;
+                                text-transform: uppercase;
+                                color: #FFFFFF;
+                                mix-blend-mode: normal;
+                                opacity: 0.5;
+                            }
+                            input{
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 26px;
+                                letter-spacing: -0.222222px;
+                                color: #FFFFFF;
+                                mix-blend-mode: normal;
+                                opacity: 0.5;
+                                background-color: transparent;
+                                border:0;
+                                border-bottom:1px solid #FFFFFF;
+                            }
+                        }
+                        .isTextArea{
+                            position: relative;
+                            display: flex;
+                            flex-direction: column;
+                            width: 445px;
+                            label{
+                                position: absolute;
+                                bottom: 17px;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 26px;
+                                letter-spacing: -0.222222px;
+                                text-transform: uppercase;
+                                color: #FFFFFF;
+                                mix-blend-mode: normal;
+                                opacity: 0.5;
+                                padding-left: 24px;
+                                padding-bottom: 81px;
+                            }
+                            textarea{
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 26px;
+                                letter-spacing: -0.222222px;
+                                color: #FFFFFF;
+                                mix-blend-mode: normal;
+                                opacity: 0.5;
+                                background-color: transparent;
+                                border:0;
+                                border-bottom:1px solid #FFFFFF;
+                            }
+                        }
+                        button{
+                            width: 144px;
+                            height: 38px;
+                            display: flex;
+                            align-items:center;
+                            font-weight: 700;
+                            letter-spacing: 2.28571px;
+                            text-transform: uppercase;
+                            color: white;
+                            background-color: transparent;
+                            border:none;
+                            border-bottom:2px solid  #4EE1A0;
+                            cursor: pointer;     
+                                                  
+                        }
+                        button:hover{
+                            color:#4EE1A0;
+                        }
+                        }
+                        .footer-ending{
+                            width: 100%;
+                            height: 32px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items:center;
+                            margin-top:47px;
+                            margin-bottom: 92px;
+                            .proomo-footer{
+                                nav{
+                                    ul{
+                                        width: 192.49px;
+                                        height: 24px;
+                                        display: flex;
+                                        column-gap: 32px;
+                                        a{
+                                            height: 24px;
+                                        }
+                                    }
+                                }
+                            }
+                            p{
+                                font-weight: 700;
+                                font-size: 32px;
+                                line-height: 32px;
+                                letter-spacing: -0.444444px;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    @media only screen and (min-width:768px) and (max-width: 1110px){
+        body{
+            .container{
+                width: 708px;
+                margin: 0 auto;
+                .wrapper{
+                    width: 708px;
+                    header{
+                        min-width: 708px;
+                        height: 32px;
+                    }
+                    main{
+                        margin:0 auto;
+                        min-width: 706px;
+                        .introduction{
+                            img{
+                                min-width: 322px;
+                                height: 600px;
+                            }
+                            .greeting{
+                                h1{
+                                    width: 445px;
+                                    height: 144px;
+                                    font-size: 72px;
+                                }
+                                span{
+                                    width: 445px;
+                                    font-size: 72px;
+                                }
+                            }
+                        }
+                    }
+                    section{
+                        .skills{
+                            width: 100%;
+                            padding-bottom: 100px;
+                        }
+                    }
+                    article{
+                        .projects{
+                            width: 100%;
+                            .project-header{
+                                width: 708px;
+                                h2{
+                                    font-size: 72px;
+                                }
+                            }
+                            .projects-main-part{
+                                min-width: 708px;
+                                img{
+                                    display: block;
+                                    width: 322px;
+                                    height: 600px;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (min-width: 375px) and (max-width: 767px), (max-width: 375px){
+        body{
+            background-color:red;
+        }
+    }
+   
+               
+    
